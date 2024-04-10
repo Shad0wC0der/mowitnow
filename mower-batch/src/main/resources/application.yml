@@ -1,0 +1,10 @@
+mowerJob:
+  input: ../mower-batch/src/main/resources/input
+  output: ../mower-batch/src/main/resources/output
+
+spring:
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+  datasource:
+    url: "jdbc:h2:mem:testdb"
+    driver-class-name: org.h2.Driver
